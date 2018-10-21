@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AlphaCode</title>
-    <link>https://longbowapache.github.io/</link>
-    <description>Recent content on AlphaCode</description>
+    <title>并发 on AlphaCode</title>
+    <link>https://longbowapache.github.io/tags/%E5%B9%B6%E5%8F%91/</link>
+    <description>Recent content in 并发 on AlphaCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 21 Oct 2018 02:54:59 +0800</lastBuildDate>
     
-	<atom:link href="https://longbowapache.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://longbowapache.github.io/tags/%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
