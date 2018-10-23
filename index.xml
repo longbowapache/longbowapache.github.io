@@ -22,5 +22,18 @@
 import java.util.Arrays; class Bank { private double[] accounts; public Bank(int acountCount, Double initialAmount) { // 银行有bankCount个账户，每个账户有initialAmount余额  accounts = new double[acountCount]; Arrays.fill(accounts, initialAmount); } public void transfer(int from, int to, Double amount) { // 转出账户减少amount  accounts[from] -= amount; // 转入账户增加amount  accounts[to] += amount; System.out.printf(&amp;#34;transfer %f from %d to %d, total amount is %f\n&amp;#34;, amount, from, to, getTotalAmount()); } public double getTotalAmount() { return Arrays.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://longbowapache.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://longbowapache.github.io/about/</guid>
+      <description>一只
+ 在阿里搬砖
+ 从C/C++转向Java后台开发
+ 正在学习人工智能知识
+  的工程师。</description>
+    </item>
+    
   </channel>
 </rss>
