@@ -6,9 +6,21 @@
     <description>Recent content on AlphaCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 21 Oct 2018 02:54:59 +0800</lastBuildDate>
     
 	<atom:link href="https://longbowapache.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java中的锁、条件变量</title>
+      <link>https://longbowapache.github.io/posts/java-concurrent-1/</link>
+      <pubDate>Sun, 21 Oct 2018 02:54:59 +0800</pubDate>
+      
+      <guid>https://longbowapache.github.io/posts/java-concurrent-1/</guid>
+      <description>本文是阅读《Java 核心技术》中并发章节的笔记。
+一个例子 下面这段代码模拟了一个银行，这个银行共有100个账户，每个账户有初始余额100元，银行共有10000元。每个账户启动一个线程在银行内向其他账户随机转钱。按理来说，银行总的钱数应该不变的，实际上这段代码执行后银行的总额并不是10000元。
+import java.util.Arrays; class Bank { private double[] accounts; public Bank(int acountCount, Double initialAmount) { // 银行有bankCount个账户，每个账户有initialAmount余额  accounts = new double[acountCount]; Arrays.fill(accounts, initialAmount); } public void transfer(int from, int to, Double amount) { // 转出账户减少amount  accounts[from] -= amount; // 转入账户增加amount  accounts[to] += amount; System.out.printf(&amp;#34;transfer %f from %d to %d, total amount is %f\n&amp;#34;, amount, from, to, getTotalAmount()); } public double getTotalAmount() { return Arrays.</description>
+    </item>
     
   </channel>
 </rss>

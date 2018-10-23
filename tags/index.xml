@@ -6,9 +6,28 @@
     <description>Recent content in Tags on AlphaCode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Sun, 21 Oct 2018 02:54:59 +0800</lastBuildDate>
     
 	<atom:link href="https://longbowapache.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java</title>
+      <link>https://longbowapache.github.io/tags/java/</link>
+      <pubDate>Sun, 21 Oct 2018 02:54:59 +0800</pubDate>
+      
+      <guid>https://longbowapache.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>并发</title>
+      <link>https://longbowapache.github.io/tags/%E5%B9%B6%E5%8F%91/</link>
+      <pubDate>Sun, 21 Oct 2018 02:54:59 +0800</pubDate>
+      
+      <guid>https://longbowapache.github.io/tags/%E5%B9%B6%E5%8F%91/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
